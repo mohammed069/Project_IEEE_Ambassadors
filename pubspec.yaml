@@ -64,6 +64,10 @@ flutter:
     - assets/images/family_members/
     - assets/images/numbers/
     - assets/sounds/numbers/
+<<<<<<< HEAD
+=======
+    - assets/sounds/colors/
+>>>>>>> origin/youssef
     - assets/sounds/family_members/
     - assets/sounds/phrases/
 

@@ -17,12 +17,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/numbers': (context) => NumbersScreen(),
+        '/numbers': (context) => const NumbersScreen(),
         '/family': (context) => const FamilyMembersScreen(),
         '/colors': (context) => const ColorsScreen(),
         '/phrases': (context) => const PhrasesScreen(),
       },
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
